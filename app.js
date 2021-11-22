@@ -1,7 +1,11 @@
 const express = require('express'); 
+const session = require('express-session');
+
 
 //creating app
 const app = express(); 
+
+app.use(session({secret: 'some secret code'}));
 
 // using JSON and URL Encoded middleware
 app.use(express.json()); 
@@ -43,10 +47,6 @@ app.get('/login', (req, res) => {
 //pass requests to the router middleware
 const router = require('./apis/routes'); 
 app.use(router);
-
-const session = require('express-session');
-
-app.use(session({secret: 'some secret code'}));
 
 
 

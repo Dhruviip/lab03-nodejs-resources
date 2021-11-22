@@ -1,38 +1,32 @@
 <%- include('header'); -%> 
+<div class='content'>
     <form method="POST" action="/api/register">
-
+        <label>Username</label> <br>
+        <input type="text" name="username" placeholder="Enter Your UserName."> <br>
+        <br>
+        <label>Password</label> <br>
+        <input type="password" name="passwsord" placeholder="Enter Your Password."> <br>
+        <br>
         <label>Society</label> <br>
-        <input type="text" name="Society" placeholder="Enter Your Society Name."> <br>
+        <input type="text" name="society" placeholder="Enter Your Society Name."> <br>
         <br>
         <label> Contact </label> <br>
-        <input type="text" name="Contact" placeholder="Enter Your Contact Detail."> <br>
+        <input type="text" name="contact" placeholder="Enter Your Contact Detail."> <br>
         <br>
         <label> Address</label> <br>
-        <input type="text" name="Address" placeholder="Enter Your Address."> <br>
+        <input type="text" name="addres" placeholder="Enter Your Addres."> <br>
         <br>
         <label> Zip Code</label> <br>
-        <input type="text" name="ZipCode" placeholder="Enter Your ZipCode."> <br>
+        <input type="text" name="zipcode" placeholder="Enter Your ZipCode."> <br>
         <br>
         <label> City</label> <br>
-        <input type="text" name="City" placeholder="Enter Your City."> <br>
-        <br>
-        <label> Phone</label> <br>
-        <input type="text" name="Phone" placeholder="Enter Your Phone Number."> <br>
+        <input type="text" name="city" placeholder="Enter Your City."> <br>
         <br>
         <label> Fax</label> <br>
-        <input type="text" name="Fax" placeholder="Enter Your Fax Number."> <br>
-        <br>
-        <label> Confirmation</label> <br>
-        <input type="number" name="Confirmation" placeholder="Enter Your Confirmation Number."> <br>
-        <br>
-        <label> Payment</label> <br>
-        <input type="text" name="Payment" placeholder="Enter Your Payment Details"> <br>
-        <br>
-        <label> Informations</label> <br>
-        <input type="text" name="Informations" placeholder="Enter Your Information Details"> <br>
+        <input type="text" name="fax" placeholder="Enter Your Fax Number."> <br>
         <br>
         <label> Max_outstanding</label> <br>
-        <input type="number" name="Max_outstanding" placeholder="Enter Your Max Outstanding Detail"> <br>
+        <input type="number" name="max_outstanding" placeholder="Enter Your Max Outstanding Detail"> <br>
         <br>
             <button> submit </button>
     </form>

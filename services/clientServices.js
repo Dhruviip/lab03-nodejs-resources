@@ -87,8 +87,8 @@ const deleteService = function(num_client, callback) {
 
 module.exports = {
     loginService,
-    registerService,
-    searchNumclientService,
-    searchService,
-    deleteService
+    registerService
+    //searchNumclientService,
+   // searchService,
+   // deleteService
 };
