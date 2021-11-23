@@ -11,7 +11,7 @@ app.use(session({secret: 'some secret code'}));
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 
-//send the index.html when receiving HTTP GET /
+//send the index.html when receiving HTTP GET 
 // app.use(express.static('public'));
 // app.get('/', (req, res) => {
 //      res.sendFile('index.html', { root: __dirname });
