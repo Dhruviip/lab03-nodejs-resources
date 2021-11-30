@@ -16,7 +16,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- CREATE DATABASE IF NOT EXISTS sales;
-USE sql6451927;
+USE sql6453888;
 
 
 --
@@ -90,8 +90,9 @@ DROP TABLE IF EXISTS `client`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `client` (
   `num_client` int NOT NULL AUTO_INCREMENT,
+  `society` varchar(60) DEFAULT NULL,
   `contact` varchar(30) DEFAULT NULL,
-  `address` varchar(40) DEFAULT NULL,
+  `addres` varchar(40) DEFAULT NULL,
   `zipcode` varchar(5) DEFAULT NULL,
   `city` varchar(30) DEFAULT NULL,
   `phone` varchar(15) DEFAULT NULL,
